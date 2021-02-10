@@ -1,0 +1,38 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 95%;
+    height: 50%;
+    background: blue;
+    display: grid;
+    grid-template-columns: repeat(28, 1fr);
+    -webkit-box-shadow: 0px 12px 15px -1px rgba(0,0,0,0.44); 
+box-shadow: 0px 12px 15px -1px rgba(0,0,0,0.44);
+}
+.zelena{
+    background: green;
+}
+.key{
+    background: white;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    overflow: hidden;
+    position: relative;
+}
+.keyname{
+    color: blue;
+    font-size: 100%;
+    position: relative;
+    top: 70%;
+    text-align: center;
+}
