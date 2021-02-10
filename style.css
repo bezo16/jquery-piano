@@ -30,10 +30,21 @@ cursor: pointer;
     overflow: hidden;
     position: relative;
 }
+.key:active{
+    background: rgb(226, 216, 216);
+}
 .keyname{
     color: blue;
     font-size: 100%;
     position: relative;
     top: 70%;
+    text-align: center;
+}
+.keypress{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    color:rgb(7, 219, 247);
+    font-size: 80%;
     text-align: center;
 }
