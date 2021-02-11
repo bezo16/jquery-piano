@@ -36,245 +36,134 @@ var b5 = new Audio("piano/448537__tedagame__b5.ogg")
 
 
 // funkcie
-var mute = (param) => {
-    console.log(param)
-    }
+
 var playAudio = (note) => {
-    if(note === 'c2'){
-        c2.currentTime=0;
-        c2.play()
+    note.currentTime=0;
+    note.play()
     }
-    if(note === 'd2'){
-        d2.currentTime=0;
-        d2.play()
-    }
-    if(note === 'e2'){
-        e2.currentTime=0;
-        e2.play()
-    }
-    if(note === 'f2'){
-        f2.currentTime=0;
-        f2.play()
-    }
-    if(note === 'g2'){
-        g2.currentTime=0;
-        g2.play()
-    }
-    if(note === 'a2'){
-        a2.currentTime=0;
-        a2.play()
-    }
-    if(note === 'b2'){
-        b2.currentTime=0;
-        b2.play()
-    }
-    if(note === 'c3'){
-        c3.currentTime=0;
-        c3.play()
-    }
-    if(note === 'd3'){
-        d3.currentTime=0;
-        d3.play()
-    }
-    if(note === 'e3'){
-        e3.currentTime=0;
-        e3.play()
-    }
-    if(note === 'f3'){
-        f3.currentTime=0;
-        f3.play()
-    }
-    if(note === 'g3'){
-        g3.currentTime=0;
-        g3.play()
-    }
-    if(note === 'a3'){
-        a3.currentTime=0;
-        a3.play()
-    }
-    if(note === 'b3'){
-        b3.currentTime=0;
-        b3.play()
-    }
-    if(note === 'c4'){
-        c4.currentTime=0;
-        c4.play()
-    }
-    if(note === 'd4'){
-        d4.currentTime=0;
-        d4.play()
-    }
-    if(note === 'e4'){
-        e4.currentTime=0;
-        e4.play()
-    }
-    if(note === 'f4'){
-        f4.currentTime=0;
-        f4.play()
-    }
-    if(note === 'g4'){
-        g4.currentTime=0;
-        g4.play()
-    }
-    if(note === 'a4'){
-        a4.currentTime=0;
-        a4.play()
-    }
-    if(note === 'b4'){
-        b4.currentTime=0;
-        b4.play()
-    }
-    if(note === 'c5'){
-        c5.currentTime=0;
-        c5.play()
-    }
-    if(note === 'd5'){
-        d5.currentTime=0;
-        d5.play()
-    }
-    if(note === 'e5'){
-        e5.currentTime=0;
-        e5.play()
-    }
-    if(note === 'f5'){
-        f5.currentTime=0;
-        f5.play()
-    }
-    if(note === 'g5'){
-        g5.currentTime=0;
-        g5.play()
-    }
-    if(note === 'a5'){
-        a5.currentTime=0;
-        a5.play()
-    }
-    if(note === 'b5'){
-        b5.currentTime=0;
-        b5.play()
-    }
-}
 
 
-
+ 
 
 
 
 $(document).ready(() => { /// WHITEKEYS
     $(".whitekey1").click(() =>{
-        playAudio('c2')
+        playAudio(c2)
             })
     $(".whitekey2").click(() =>{
-        playAudio('d2')
+        playAudio(d2)
             })  
     $(".whitekey3").click(() =>{
-        playAudio('e2')
+        playAudio(e2)
             })
     $(".whitekey4").click(() =>{
-        playAudio('f2')
+        playAudio(f2)
             })   
     $(".whitekey5").click(() =>{
-        playAudio('g2')
+        playAudio(g2)
             })
     $(".whitekey6").click(() =>{
-        playAudio('a2')
+        playAudio(a2)
             })  
     $(".whitekey7").click(() =>{
-        playAudio('b2')
+        playAudio(b2)
             })  
     $(".whitekey8").click(() =>{
-        playAudio('c3')
+        playAudio(c3)
             })
     $(".whitekey9").click(() =>{
-        playAudio('d3')
+        playAudio(d3)
             })  
     $(".whitekey10").click(() =>{
-        playAudio('e3')
+        playAudio(e3)
             })
     $(".whitekey11").click(() =>{
-        playAudio('f3')
+        playAudio(f3)
             })   
     $(".whitekey12").click(() =>{
-        playAudio('g3')
+        playAudio(g3)
             })
     $(".whitekey13").click(() =>{
-        playAudio('a3')
+        playAudio(a3)
             })  
     $(".whitekey14").click(() =>{
-        playAudio('b3')
+        playAudio(b3)
             })  
     $(".whitekey15").click(() =>{
-        playAudio('c4')
+        playAudio(c4)
             })
     $(".whitekey16").click(() =>{
-        playAudio('d4')
+        playAudio(d4)
             })  
     $(".whitekey17").click(() =>{
-        playAudio('e4')
+        playAudio(e4)
             })
     $(".whitekey18").click(() =>{
-        playAudio('f4')
+        playAudio(f4)
             })   
     $(".whitekey19").click(() =>{
-        playAudio('g4')
+        playAudio(g4)
             })
     $(".whitekey20").click(() =>{
-        playAudio('a4')
+        playAudio(a4)
             })  
     $(".whitekey21").click(() =>{
-        playAudio('b4')
+        playAudio(b4)
             }) 
     $(".whitekey22").click(() =>{
-        playAudio('c5')
+        playAudio(c5)
             })
     $(".whitekey23").click(() =>{
-        playAudio('d5')
+        playAudio(d5)
             })  
     $(".whitekey24").click(() =>{
-        playAudio('e5')
+        playAudio(e5)
             })
     $(".whitekey25").click(() =>{
-        playAudio('f5')
+        playAudio(f5)
             })   
     $(".whitekey26").click(() =>{
-        playAudio('g5')
+        playAudio(g5)
             })
     $(".whitekey27").click(() =>{
-        playAudio('a5')
+        playAudio(a5)
             })  
     $(".whitekey28").click(() =>{
-        playAudio('b5')
+        playAudio(b5)
             })
                 
 })
 
-    addEventListener('keydown',(e) => {
-        if(e.code === 'KeyQ')playAudio('c2')
-        if(e.code === 'KeyW')playAudio('d2')
-        if(e.code === 'KeyE')playAudio('e2')
-        if(e.code === 'KeyR')playAudio('f2')
-        if(e.code === 'KeyT')playAudio('g2')
-        if(e.code === 'KeyY')playAudio('a2')
-        if(e.code === 'KeyU')playAudio('b2')
-        if(e.code === 'KeyI')playAudio('c3')
-        if(e.code === 'KeyO')playAudio('d3')
-        if(e.code === 'KeyP')playAudio('e3')
-        if(e.code === 'KeyA')playAudio('f3')
-        if(e.code === 'KeyS')playAudio('g3')
-        if(e.code === 'KeyD')playAudio('a3')
-        if(e.code === 'KeyF')playAudio('b3')
-        if(e.code === 'KeyG')playAudio('c4')
-        if(e.code === 'KeyH')playAudio('d4')
-        if(e.code === 'KeyJ')playAudio('e4')
-        if(e.code === 'KeyK')playAudio('f4')
-        if(e.code === 'KeyL')playAudio('g4')
-        if(e.code === 'KeyZ')playAudio('a4')
-        if(e.code === 'KeyX')playAudio('b4')
-        if(e.code === 'KeyC')playAudio('c5')
-        if(e.code === 'KeyV')playAudio('d5')
-        if(e.code === 'KeyB')playAudio('e5')
-        if(e.code === 'KeyN')playAudio('f5')
-        if(e.code === 'KeyM')playAudio('g5')
-        if(e.code === 'Comma')playAudio('a5')
-        if(e.code === 'Period')playAudio('b5')
+    addEventListener('keyup',(e) => {
+        if(e.code === 'KeyQ')playAudio(c2)
+        if(e.code === 'KeyW')playAudio(d2)
+        if(e.code === 'KeyE')playAudio(e2)
+        if(e.code === 'KeyR')playAudio(f2)
+        if(e.code === 'KeyT')playAudio(g2)
+        if(e.code === 'KeyY')playAudio(a2)
+        if(e.code === 'KeyU')playAudio(b2)
+        if(e.code === 'KeyI')playAudio(c3)
+        if(e.code === 'KeyO')playAudio(d3)
+        if(e.code === 'KeyP')playAudio(e3)
+        if(e.code === 'KeyA')playAudio(f3)
+        if(e.code === 'KeyS')playAudio(g3)
+        if(e.code === 'KeyD')playAudio(a3)
+        if(e.code === 'KeyF')playAudio(b3)
+        if(e.code === 'KeyG')playAudio(c4)
+        if(e.code === 'KeyH')playAudio(d4)
+        if(e.code === 'KeyJ')playAudio(e4)
+        if(e.code === 'KeyK')playAudio(f4)
+        if(e.code === 'KeyL')playAudio(g4)
+        if(e.code === 'KeyZ')playAudio(a4)
+        if(e.code === 'KeyX')playAudio(b4)
+        if(e.code === 'KeyC')playAudio(c5)
+        if(e.code === 'KeyV')playAudio(d5)
+        if(e.code === 'KeyB')playAudio(e5)
+        if(e.code === 'KeyN')playAudio(f5)
+        if(e.code === 'KeyM')playAudio(g5)
+        if(e.code === 'Comma')playAudio(a5)
+        if(e.code === 'Period')playAudio(b5)
         console.log(e.code)
     })
+    
